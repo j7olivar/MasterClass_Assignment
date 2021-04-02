@@ -1,11 +1,16 @@
 .App {
+  background-color: rgb(53, 53, 53);
   
 }
 
 .ClassItem-image{
   height:130px;
-  width: 130px
+  width: 130px;
 
+}
+
+.textColor{
+  color:whitesmoke;
 }
 
 .App-header {
