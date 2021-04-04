@@ -8,11 +8,11 @@ function App() {
     //console.log(data);
     return (
       <div>
-          <h2 className="textColor">{data.instructor_name}</h2>
+          <img src={data.instructor_image_url} className="ClassItem-image"/>
+          <h2 className="instructorName">{data.instructor_name}</h2>
           <h3 className="textColor">{data.title}</h3>
           <p className="textColor">Rating: {data.rating} out of 5</p>
           <p className="textColor">{data.id}</p>
-          <img src={data.instructor_image_url} className="ClassItem-image"/>
       </div>
     
       
