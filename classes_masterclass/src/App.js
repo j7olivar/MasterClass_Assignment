@@ -1,7 +1,7 @@
 import React from 'react';
 import data from './data/CourseDataRated.json';
 import './App.css';
-import CourseData from './courseDataRated';
+import CourseData from './courseData';
 
 function App() {
 
