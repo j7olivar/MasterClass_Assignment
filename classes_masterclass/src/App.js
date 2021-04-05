@@ -10,7 +10,7 @@ function App() {
       <h1 className="MCHeader">
         MasterClass
       </h1>
-      <hr/>
+      <hr />
       <div >
       <CourseData data={data}/>
       </div>
