@@ -23,7 +23,7 @@ function CourseData (props){
       setButtonText('Saved');
       setFaves(faves.concat([id]));
     }
-    console.log(faves);
+    //console.log(faves);
   }
 
     return (props.data.map(function(data) {
@@ -34,7 +34,6 @@ function CourseData (props){
           <img src={data.instructor_image_url} className="ClassItem-image"/>
           <h2 className="instructorName">{data.instructor_name}</h2>
           <h3 className="courseTitle">{data.title}</h3>
-          <p className= "courseTitle">{data.id}</p>
           <p className="courseRating">Rating: {data.rating} out of 5</p>
          
           <Button 
